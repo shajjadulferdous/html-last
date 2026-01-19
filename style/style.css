@@ -159,9 +159,8 @@ html{
     margin-top: 10px;
 }
 .card-containers{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
     flex-wrap: wrap;
     margin-top: 80px;
     padding: 0;
@@ -281,5 +280,7 @@ html{
     #header{
         margin-bottom: 50px;
     }
-    
+    .card-containers{
+        grid-template-rows: repeat(2 , 1fr);
+    }
 }
