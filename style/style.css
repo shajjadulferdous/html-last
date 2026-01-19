@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+html{
+    font-size: 16px;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  background-color: #1A0B2E;
+  color:white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    margin-bottom: 100px;
+}
+#header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    padding:36.5px 0;
+    flex-wrap: wrap;
+}
+#header nav ul{
+    display: flex;
+    gap:20px;
+}
+#header nav ul li{
+     list-style-type: none;
+}
+#header nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+#header nav h1{
+    font-size: 2rem;
+}
+
+.hamburg{
+    display: none;
+}
+
+#header nav h1 span{
+    background:linear-gradient(to top , #F7E93F,#FB09B4,#9100F8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color:transparent;
+}
+.btn-primary{
+    font-weight: bold;
+    color:white;
+    background: linear-gradient(rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+    padding: 12.5px 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 8px;
+    transition: all 0.5 ease;
+}
+.btn-primary:hover{
+    transform: scale(1.1);
+}
+.image-containers{
+    background-image: url(/assets/hero-bg.png);
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-containers2{
+    background-image: url(/assets/hero-circle.png);
+    width: 50%;
+    height: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.new-pos-bt{
+    position: absolute;
+    padding: 8px 16px;
+    background-color: rgba(0, 255, 136, 1);
+    border-radius: 8px;
+    left:58%;
+    top:30%;
+    color:black;
+}
+.image-description{
+    text-align: center;
+    margin-top: 30px;
+}
+.img-head{
+    font-size: 4.5rem;
+}
+.btn-secondary{
+    padding: 12.5px 16px;
+    background-color: transparent;
+    color:rgba(0, 255, 136, 1);
+    border:2px solid rgba(0, 255, 136, 1);
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.5s ease;
+}
+.btn-secondary:hover{
+    transform: scale(1.1);
+}
+.btn-containers{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.image-containers2 img{
+    width: 20%;
+}
+
+#details{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+.details-box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#details p{
+    max-width: 1000px;
+    padding: 6px;
+}
+#details h1{
+    font-size:3rem;
+    margin-bottom: 16px;
+    line-height: 20px;
+}
+.detailslast{
+    margin-top: 10px;
+}
+.card-containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding: 0;
+}
+.card h1{
+    color:rgba(0, 255, 136, 1);
+    font-size: 3rem;
+}
+#techwave-facilities{  
+    background-color: rgba(53, 17, 101, 0.4);
+    margin-top: 100px;
+    padding: 120px 0;
+}
+.techwave-facilities-des {
+    width: 75%;
+    margin: 0 auto; 
+}
+
+.techwave-facilities-des{
+    margin-top: 60px;
+}
+.techwave-containers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px;
+}
+.techwave-containers .audio{
+    /* padding: auto; */
+    grid-row: span 2;
+    grid-column: span 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.techwave-containers .mobile{
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.techwave-containers .global{
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.techwave-containers .exclusive{
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.techwave-containers .resources{
+    grid-row: span 1;
+    grid-column: span 1;
+}
+.common-card{
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px  rgba(53, 17, 101, 0.4);
+    align-self: center;
+    background-color: rgba(53, 17, 101, 0.4);
+    height: 100%;
+    width: 100%;
+}
+.common-card h1{
+    padding: 16px 0;
+    font-size: 1.2rem;
+}
+.common-card p{
+    color:#ffffff;
+    opacity: .6;
+}
+
+
+#main-section{
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    #header nav ul{
+        display: none;
+    }
+    .btn-nav{
+        display: none;
+    }
+    .hamburg{
+       display: inline;
+    }
+    .card-containers{
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 15px;
+    }
+    #details h1{
+        font-size:2rem;
+    }
+    .card h1{
+        font-size: 2.5rem;
+    }
+    .techwave-containers{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #techwave-facilities{
+        background-color: rgba(53, 17, 101, 0.4);
+        margin-top: 100px;
+        padding: 60px 0;
+    }
+    .techwave-facilities-des {
+        width: 100%;
+        background-color: rgba(53, 17, 101, 0.4);;    
+    }
+    .techwave-containers .audio{
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+    #header{
+        margin-bottom: 50px;
+    }
+    
+}
