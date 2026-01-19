@@ -67,7 +67,7 @@ html{
     transform: scale(1.1);
 }
 .image-containers{
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(../assets/hero-bg.png);
     width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ html{
 }
 
 .image-containers2{
-    background-image: url(/assets/hero-circle.png);
+    background-image: url(../assets/hero-circle.png);
     width: 50%;
     height: 55%;
     background-repeat: no-repeat;
