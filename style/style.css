@@ -89,7 +89,7 @@ p{
 .image-containers2{
     background-image: url(../assets/hero-circle.png);
     width: 50%;
-    height: 50%;
+    height: 55%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -472,6 +472,9 @@ footer{
     }
     #details h1{
         font-size:2rem;
+    }
+    .image-containers2{  
+        height: 50%;
     }
     /* .new-pos-bt{
         left:57%;
