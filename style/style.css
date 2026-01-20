@@ -15,6 +15,8 @@ html{
 p{
     opacity: 0.6;
 }
+
+
 #header{
     margin-bottom: 100px;
 }
@@ -96,16 +98,31 @@ p{
     align-items: center;
     position: relative;
 }
+@keyframes btn-new {
+    from{
+       left:58%;
+       /* top:25%; */
+    }
+    to{
+        left: 59%;
+    }
+}
 .new-pos-bt{
     position: absolute;
     padding: 8px 16px;
     background-color: rgba(0, 255, 136, 0.8);
     border-radius: 8px;
-    left:57%;
+    /* left:57%; */
     top:25%;
     color:black;
     font-size: 0.8rem;
+    animation: btn-new 2s ease-in-out 1s infinite alternate ;
+    box-shadow: 1px 1px 3px rgba(108, 211, 163);
+    opacity: 0.8;
 }
+/* .new-pos-bt span{
+    opacity: 0.8;
+} */
 .image-description{
     text-align: center;
     margin-top: 30px;
@@ -115,6 +132,18 @@ p{
 }
 .img-head{
     font-size: 3rem;
+}
+@keyframes btn-animation {
+    from{
+        top:0px;
+    }
+    to{
+       top: -4px;
+    }
+}
+.btn-anima{
+    position: relative;
+    animation: btn-animation 2s ease-in-out 1s infinite alternate;;
 }
 .btn-secondary{
     padding: 12.5px 16px;
@@ -349,7 +378,7 @@ footer{
 .sponsor-container{
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
-    gap: 30px;
+    gap: 15px;
 }
 .sponsor-container div{
     display: flex;
@@ -444,4 +473,8 @@ footer{
     #details h1{
         font-size:2rem;
     }
+    /* .new-pos-bt{
+        left:57%;
+        top:27%;
+    } */
 }
