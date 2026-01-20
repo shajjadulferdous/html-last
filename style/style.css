@@ -82,6 +82,7 @@ p{
 
 .btn-primary:hover{
     transform: scale(1.1);
+    background: linear-gradient(rgb(152, 142, 25),rgb(137, 3, 96),rgb(71, 1, 121));
 }
 
 .image-containers{
@@ -161,6 +162,8 @@ p{
 }
 .btn-secondary:hover{
     transform: scale(1.1);
+     color:rgb(1, 105, 56);
+    border:2px solid rgb(1, 105, 56);
 }
 .btn-containers{
     margin-top: 24px;
