@@ -12,6 +12,9 @@ html{
     padding: 0;
     box-sizing: border-box;
 }
+p{
+    opacity: 0.6;
+}
 #header{
     margin-bottom: 100px;
 }
@@ -23,11 +26,11 @@ html{
     margin: 0 auto;
     padding:10.5px 0;
     flex-wrap: wrap;
-    
 }
 #header nav ul{
     display: flex;
     gap:20px;
+    opacity: 0.6;
 }
 #header nav ul li{
      list-style-type: none;
@@ -96,15 +99,19 @@ html{
 .new-pos-bt{
     position: absolute;
     padding: 8px 16px;
-    background-color: rgba(0, 255, 136, 1);
+    background-color: rgba(0, 255, 136, 0.8);
     border-radius: 8px;
-    left:58%;
-    top:30%;
+    left:57%;
+    top:25%;
     color:black;
+    font-size: 0.8rem;
 }
 .image-description{
     text-align: center;
     margin-top: 30px;
+}
+.image-description p{
+    opacity: 0.6;
 }
 .img-head{
     font-size: 3rem;
@@ -156,7 +163,7 @@ html{
 #details h1{
     font-size:3rem;
     margin-bottom: 16px;
-    line-height: 20px;
+    /* line-height: 20px; */
 }
 .detailslast{
     margin-top: 10px;
@@ -234,7 +241,6 @@ html{
 }
 .common-card p{
     color:#ffffff;
-    opacity: .6;
 }
 
 
@@ -280,7 +286,6 @@ html{
 }
 .video-descreption p{
     font-weight: 400;
-    opacity: 0.6;
     line-height: 1.5;
     margin-bottom: 12px;
 }
@@ -308,7 +313,6 @@ html{
     margin-bottom: 16px;
 }
 .host-details p{
-    opacity: 0.6;
     margin-bottom: 20px;
 }
 .social-media-logs{
@@ -351,6 +355,9 @@ footer{
     display: flex;
     align-items: center;
     gap: 5px;
+}
+.sponsor-container span{
+    opacity: 0.6;
 }
 
 @media screen and (max-width:576px) {
@@ -428,4 +435,13 @@ footer{
       grid-template-columns: repeat(2 , 1fr);
       margin-bottom: 30px;
      }
+     .image-description{
+        margin-top: 10px;
+    }
+    .img-head{
+        font-size: 2.6rem;
+    }
+    #details h1{
+        font-size:2rem;
+    }
 }
