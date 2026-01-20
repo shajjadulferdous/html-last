@@ -50,7 +50,7 @@ p{
 }
 #header nav h1{
     font-size: 2rem;
-    animation: btn-animation 2s ease-in-out 1s infinite alternate;
+    animation: btn-animation 2s ease-in-out 1.5s infinite alternate;
     position: relative;
 }
 
