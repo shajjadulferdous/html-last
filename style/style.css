@@ -83,6 +83,7 @@ p{
 .btn-primary:hover{
     transform: scale(1.1);
     background: linear-gradient(rgb(152, 142, 25),rgb(137, 3, 96),rgb(71, 1, 121));
+    opacity: 0.6;
 }
 
 .image-containers{
@@ -162,7 +163,7 @@ p{
 }
 .btn-secondary:hover{
     transform: scale(1.1);
-     color:rgb(1, 105, 56);
+    color:rgb(1, 105, 56);
     border:2px solid rgb(1, 105, 56);
 }
 .btn-containers{
@@ -267,6 +268,7 @@ p{
 .common-card:hover{
     transform: translateY(-5px);
     background-color: #3f2165;
+    opacity: 0.6;
 }
 .common-card h1{
     padding: 16px 0;
@@ -403,6 +405,7 @@ footer{
 }
 .sponsor-container div:hover span {
     opacity: 1;
+    
 }
 .sponsor-container span{
     opacity: 0.6;
